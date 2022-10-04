@@ -424,5 +424,18 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "product": {
+    "copy": {
+      "headline": "Hassle free fitness tracking",
+      "description_headline": "Information"
+    },
+    "details_list": {
+      "item1": "Companion apps for Android & IOS",
+      "item2": "Preorders begin shipping this month"
+    },
+    "form": {
+      "submit": "Preorder"
+    }
   }
 }
