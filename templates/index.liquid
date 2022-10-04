@@ -1,0 +1,7 @@
+{% assign mainProduct = all_products['fitra-activity-band'] %}
+
+{{ mainProduct.title | upcase }}
+{{ mainProduct.description }}
+{% for image in mainProduct.images %}
+  <img src="{{ image | image_url }}" loading="lazy"/>
+{% endfor %}
