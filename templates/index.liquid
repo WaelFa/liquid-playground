@@ -60,7 +60,7 @@
 
           <button type="submit" name="add" id="add-to-cart-button">
             {{ 'product.form.submit' | t }}
-            <span class="product-price">{{ mainProduct.price | money_without_trailing_zeros }}
+            <span class="product-price">{{ mainProduct.price | money_with_currency }}
             </span>
           </button>
         </form>
@@ -71,4 +71,4 @@
 
   </div>
 
-</div>
+</div>>
